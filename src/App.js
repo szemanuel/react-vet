@@ -9,7 +9,7 @@ import { Signup } from './pages/Signup/index';
 import { Plan_pricing } from './pages/Planpricing/index';
 import { Welcome } from './pages/Welcome/index';
 import { NoMatch } from './pages/NoMatch/index';
-
+import { ContactUs } from './pages/ContactUs/index';
 
 export default function App() {
   return (
@@ -20,6 +20,7 @@ export default function App() {
           <Route path="/login" element={<Login />}/>
           <Route path="/planprincing" element={<Plan_pricing />}/>
           <Route path="/signup" element={<Signup />}/>
+          <Route path="/contactus" element={<ContactUs />}/>
           //agregar el resto de las páginas acá
           <Route path="*" element={<NoMatch />}/>
           </Routes>

@@ -17,7 +17,7 @@ const Body = () => {
         <div className="accessMenu">  
         <a href="/signup">TRY</a>      
         <a href="/planprincing">PRICING</a>      
-        <a href="#">CONTACT US</a>      
+        <a href="/contactus">CONTACT US</a>      
         </div>
       </main>
     </div>
