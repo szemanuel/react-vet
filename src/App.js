@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div>
       <Grid />
-     <BrowserRouter>
+       <BrowserRouter>
         <Routes>
           <Route path="/welcome" element={<Welcome />}/>
           <Route path="/login" element={<Login />}/>

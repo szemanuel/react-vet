@@ -1,10 +1,11 @@
 import React from 'react';
 import './Grid.css';
+import bootstrap from 'bootstrap' 
 
 const Grid = () => {
   return (
     <div>
-     <table>
+     <table className="footerPage">
   <thead>
     <tr>
       <th scope="col">First</th>
