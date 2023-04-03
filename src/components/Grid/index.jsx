@@ -1,7 +1,5 @@
 import React from 'react';
 import './Grid.css';
-import table from 'react-bootstrap/Table';
-import Button from 'react-bootstrap/Button';
 
 const Grid = () => {
   return (
@@ -16,7 +14,7 @@ const Grid = () => {
             <th ></th>
           </tr>
         </thead>
-        <tbody className="Tbodyformat">
+        <tbody className="table_bodyformat">
           <tr>
             <th >1</th>
             <td>MMMM</td>

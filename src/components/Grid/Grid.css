@@ -1,16 +1,10 @@
-.container_table{
+
+table, th, td {
   background-color: black;
   color: white;
-}
-
-.table_format{
-  border: 1px solid grey;
-}
-
-.tr_format{
-  border: 1px solid grey;
-}
-
-.tbody_format{
-  border: 1px solid red;
-}
+  border: 0.1px solid grey;
+  border-spacing: 0px;
+  width: 1500px;
+  margin: 15px;
+  margin-right: 150px;
+  }
