@@ -1,5 +1,16 @@
-.footerPage {
+.container_table{
   background-color: black;
-  color: yellow;
-  text-align: center;
-  }
+  color: white;
+}
+
+.table_format{
+  border: 1px solid grey;
+}
+
+.tr_format{
+  border: 1px solid grey;
+}
+
+.tbody_format{
+  border: 1px solid red;
+}

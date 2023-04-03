@@ -1,39 +1,38 @@
 import React from 'react';
 import './Grid.css';
-import bootstrap from 'bootstrap' 
+import table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/Button';
 
 const Grid = () => {
   return (
-    <div>
-     <table className="footerPage">
-  <thead>
-    <tr>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Marhgfhgfhk</td>
-      <td>Ottjhgjhgo</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-     
+    <div className="container_table">
+      <table className="table_format">
+        <thead>
+          <tr className="tr_format">
+            <th >#</th>
+            <th >Name</th>
+            <th >Email</th>
+            <th >Phone</th>
+            <th ></th>
+          </tr>
+        </thead>
+        <tbody className="Tbodyformat">
+          <tr>
+            <th >1</th>
+            <td>MMMM</td>
+            <td>m@test.com</td>
+            <td>1111111111</td>
+            <td>Botón editar y eliminar </td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>OOOO</td>
+            <td>o@test.com</td>
+            <td>1111111111</td>
+            <td>Botón editar y eliminar </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };
