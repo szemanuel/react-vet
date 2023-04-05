@@ -8,3 +8,8 @@ table, th, td {
   margin: 15px;
   margin-right: 150px;
   }
+
+.edit{
+  width: 15px;
+  border-color: red;
+}
