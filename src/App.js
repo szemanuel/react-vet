@@ -10,13 +10,15 @@ import { Signup } from './pages/Signup/index';
 import { Plan_pricing } from './pages/Planpricing/index';
 import { Welcome } from './pages/Welcome/index';
 import { NoMatch } from './pages/NoMatch/index';
+import { Clients } from './pages/Clients/index';
 import { ContactUs } from './pages/ContactUs/index';
+
 
 
 export default function App() {
   return (
     <div>
-        <Grid />
+        <Clients />
         
        <BrowserRouter>
         <Routes>
