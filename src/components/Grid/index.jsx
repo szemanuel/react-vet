@@ -25,7 +25,7 @@ const Grid = () => {
             <td>MMMM</td>
             <td>m@test.com</td>
             <td>1111111111</td>
-            <td> <img src="https://www.istockphoto.com/es/foto/cerrar-una-mano-mujer-escribiendo-en-cuaderno-gm1035462384-277203439" className="edit" /></td>
+            <td> <img src={writing} className="edit" /></td>
           </tr>
           <tr>
             <th>2</th>
@@ -36,6 +36,7 @@ const Grid = () => {
           </tr>
         </tbody>
       </table>
+      <img src={writing} className="edit2"/>
     </div>
   );
 };

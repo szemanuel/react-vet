@@ -10,6 +10,13 @@ table, th, td {
   }
 
 .edit{
-  width: 15px;
-  border-color: red;
+  width: 150px;
+  color: blanchedalmond;
+  border-color: white;
+}
+
+.edit2{
+  width: 500px;
+  border: red;
+  color: ;
 }
