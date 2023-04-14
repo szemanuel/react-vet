@@ -10,3 +10,7 @@ main > input{
 .btnPlus{
   width: 4px
 }
+
+.btnPlus:hover{
+  color: blue;
+}
