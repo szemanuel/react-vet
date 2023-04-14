@@ -1,22 +1,14 @@
 
-table, th, td {
+table, th, td,tr {
   background-color: black;
   color: white;
   border: 0.1px solid grey;
   border-spacing: 0px;
-  width: 150x;
+  width: 1;
   margin: 15px;
   margin-right: 150px;
   }
 
-.edit{
-  width: 150px;
-  color: blanchedalmond;
-  border-color: white;
-}
-
-.edit2{
-  width: 500px;
-  border: red;
-  color: ;
+.table_format{
+  width: 80%;
 }
