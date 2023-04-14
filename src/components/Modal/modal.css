@@ -17,10 +17,12 @@
   border-radius: 1rem;
   position: relative;
   padding: 1rem;
+  color: black;
 }
 
 .modal-close{
   position:absolute;
   top: 0;
   right: 0;
+  
 }

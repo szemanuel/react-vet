@@ -1,3 +1,4 @@
+import React from 'react';
 import "./modal.css"
 
 const Modal = () => {
@@ -5,10 +6,10 @@ const Modal = () => {
     <div className="modal-container">
       <div className="modal-body">
         <button className="modal-close">X </button>
-        <p> Lorem </p>
+        <p> Prueba modal </p>
       </div>
     </div> 
   );
 };
 
-export default Modal
+export { Modal }
