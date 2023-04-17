@@ -6,7 +6,9 @@ const Modal = () => {
     <div className="modal-container">
       <div className="modal-body">
         <button className="modal-close">X </button>
-        <p> Prueba modal </p>
+        <h1> Deleting </h1>
+        <p> You are going to delete this client </p>
+        <button className="modal-btn"> Confirm </button>
       </div>
     </div> 
   );
