@@ -2,3 +2,23 @@
   background-color: black;
   color: yellow;
   }
+
+.New-Client {
+  margin-left: 40px;
+  background-color: red ;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.cli{
+  margin-left: 32%;
+  margin-bottom: 2%;
+}  
+
+.hamb{
+  background-color: red;
+}

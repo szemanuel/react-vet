@@ -4,10 +4,10 @@ import './NewClients.css';
 const NewClients = () => {
   return (
     <div className="page">
-      <header className="">
+      <header className="menu">
         <h1 className="logo"> Vte </h1>
-        <h1 className="welcome"> New Client</h1>
-        <h1 className="hamburguer">hamburguer</h1>
+        <h1 className="cli"> New Client</h1>
+        <h1 className="hamb">hamburguer</h1>
       </header>
       <main className="userLogin">
         <div className="loginInputs">
