@@ -5,6 +5,7 @@ import { Modal } from '../../components/Modal/index';
 
 const Clients = () => {
   const [showModal, setShowModal] = useState(false);
+
   return (
     <div className="loginPage">
       <header className="menu">
@@ -27,9 +28,10 @@ const Clients = () => {
         <button
           className="btnPlus"
           type="button"
-          onClick={() => setShowModal(!setShowModal)}
-          value="+"
-        />
+          onClick={() => setShowModal(!showModal)}
+          value="+"> +++++++++++++++++
+        </button>
+        {showModal && <Modal />}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -42,16 +44,9 @@ const Clients = () => {
         </svg>
 
         <Grid />
-        <Modal />
-        <div>
-          {showModal && (
-            <div className="modal">
-              <div className="modalContent">
-                <div> COSO FLOTANTE </div>
-              </div>
-            </div>
-          )}
-        </div>
+              
+         
+       
       </main>
     </div>
   );
