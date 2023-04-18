@@ -12,6 +12,7 @@ import { Welcome } from './pages/Welcome/index';
 import { NoMatch } from './pages/NoMatch/index';
 import { Clients } from './pages/Clients/index';
 import { ContactUs } from './pages/ContactUs/index';
+import { NewClients } from './pages/NewClients/index';
 
 
 
@@ -19,7 +20,7 @@ export default function App() {
   return (
     <div>
         <Clients />
-        
+        <NewClients />
        <BrowserRouter>
         <Routes>
           <Route path="/welcome" element={<Welcome />}/>
