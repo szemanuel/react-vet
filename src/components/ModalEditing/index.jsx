@@ -1,5 +1,5 @@
 import React from 'react';
-import "./modalEditing.css"
+import './modalEditing.css';
 
 const ModalEditing = () => {
   return (
@@ -7,15 +7,16 @@ const ModalEditing = () => {
       <div className="modal-body">
         <button className="modal-close">X </button>
         <div className="loginInputs">
+          <h4>Editing</h4>
           <input className="inputType" placeholder="Full Name" />
           <input className="inputType" placeholder="Email" />
           <input className="inputType" placeholder="Adress" />
           <input className="inputType" placeholder="Phone Number" />
-        </div>      
+        </div>
         <button className="modal-btn"> Confirm </button>
       </div>
-    </div> 
+    </div>
   );
 };
 
-export { ModalEditing }
+export { ModalEditing };

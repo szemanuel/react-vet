@@ -18,9 +18,10 @@ import { NewClients } from './pages/NewClients/index';
 export default function App() {
   return (
     <div>
+      
       <BrowserRouter>
-        <ModalEditing />
-        <Routes>
+      
+              <Routes>
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/login" element={<Login />} />
           <Route path="/planprincing" element={<Plan_pricing />} />

@@ -1,8 +1,7 @@
 .modal-container{
  /*display: none;*/
- position: fixed;
-  top:0;
-  left:0; 
+ top: 0;
+ left:0;
   z-index: 1;
   width: 60%;
   height: 10%;
@@ -13,6 +12,7 @@
 }
 
 .modal-body{
+  position: absolute;
   color: black;
   background-color:lightgray;
   margin: 15%; /* 15% from the top and centered */
