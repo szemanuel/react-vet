@@ -6,8 +6,6 @@ import { Body } from './components/Body/index';
 import { Footer } from './components/Footer/index';
 import { Grid } from './components/Grid/index';
 import { ModalEditing } from './components/ModalEditing/index';
-
-
 import { Login } from './pages/Login/index';
 import { Signup } from './pages/Signup/index';
 import { Plan_pricing } from './pages/Planpricing/index';
