@@ -5,6 +5,9 @@ import { Header } from './components/Header/index';
 import { Body } from './components/Body/index';
 import { Footer } from './components/Footer/index';
 import { Grid } from './components/Grid/index';
+import { ModalEditing } from './components/ModalEditing/index';
+
+
 import { Login } from './pages/Login/index';
 import { Signup } from './pages/Signup/index';
 import { Plan_pricing } from './pages/Planpricing/index';
@@ -18,7 +21,7 @@ export default function App() {
   return (
     <div>
       <BrowserRouter>
-        <Clients />
+        <ModalEditing />
         <Routes>
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/login" element={<Login />} />
