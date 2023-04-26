@@ -22,6 +22,7 @@ export default function App() {
       <BrowserRouter>
       
               <Routes>
+          <Route path="/" element={<Welcome />} />      
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/login" element={<Login />} />
           <Route path="/planprincing" element={<Plan_pricing />} />
