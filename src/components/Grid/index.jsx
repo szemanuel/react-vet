@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './Grid.css';
-import writing from './writing.svg';
-import editing from './editing.svg';
 import { Modal } from "../Modal/index";
 import {ModalEditing} from "../ModalEditing/index";
 
